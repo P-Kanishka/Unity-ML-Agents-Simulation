@@ -22,7 +22,7 @@ The system uses a Python-Unity bridge to train Neural Networks. The agent observ
     * `-1/MaxStep`: Time penalty (encouraging efficiency).
 * **Algorithm (PPO):** Utilized Proximal Policy Optimization to stabilize training. The objective function maximizes expected return while constraining policy updates:
 
-![PPO Formula](./screenshots/formula.PNG)
+![PPO Formula](./Screenshots/formula.PNG)
 
 ### 📸 Simulation & Results
 **Training Performance (TensorBoard):**
@@ -30,13 +30,13 @@ The agent successfully converged, showing increased cumulative reward and decrea
 
 | Agent Environment | Training Metrics |
 | :---: | :---: |
-| ![Hallway](./screenshots/hallway.jpg) | ![TensorBoard](./screenshots/mlagents-TensorBoard.png) |
+| ![Hallway](./Screenshots/hallway.jpg) | ![TensorBoard](./Screenshots/mlagents-TensorBoard.png) |
 
 ### 🛠️ Class Structure
 The codebase follows a modular structure decoupling Agent logic from Environment settings.
 *(See `HallwayAgent` Class Diagram below)*
 
-![Class Diagram](./screenshots/class2.PNG)
+![Class Diagram](./Screenshots/class2.PNG)
 
 ### 📄 Documentation
 The full research documentation, including detailed mathematical foundations and experimental setup, is available here:
