@@ -30,7 +30,7 @@ The agent successfully converged, showing increased cumulative reward and decrea
 
 | Agent Environment | Training Metrics |
 | :---: | :---: |
-| ![Hallway](./Screenshots/hallway.jpg) | ![TensorBoard](./Screenshots/mlagents-TensorBoard.png) |
+| ![Hallway](./Screenshots/hallway.png) | ![TensorBoard](./Screenshots/mlagents-TensorBoard.png) |
 
 ### 🛠️ Class Structure
 The codebase follows a modular structure decoupling Agent logic from Environment settings.
