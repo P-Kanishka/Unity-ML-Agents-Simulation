@@ -12,7 +12,7 @@ The goal was to demonstrate **Sim-to-Real** transfer potential, where policies t
 ### 🏗️ System Architecture
 The system uses a Python-Unity bridge to train Neural Networks. The agent observes the environment via Raycasts and Vector Observations, processes them through a PyTorch model, and executes discrete actions.
 
-![Architecture](./screenshots/learning_environment_full.png)
+![Architecture](./Screenshots/learning_environment_full.png)
 
 ### 🧩 Implementation Details
 * **Agent Logic:** Custom `HallwayAgent` class inheriting from `Agent`. Handles sensor data collection and reward signals.
