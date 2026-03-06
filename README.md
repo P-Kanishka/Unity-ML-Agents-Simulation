@@ -3,6 +3,7 @@
 **📅 Project Date:** 2021
 **🛠️ Tech Stack:** Unity 3D, C#, Python, PyTorch, ML-Agents
 **🧠 Algorithm:** Proximal Policy Optimization (PPO)
+** Project By: Hrishikesh A and Kanishka P
 
 ### 📖 Project Overview
 This project explores **Deep Reinforcement Learning (DRL)** by training autonomous agents to navigate complex 3D environments. Using the **Unity ML-Agents Toolkit**, I developed a "Hallway Navigation" simulation where agents learn spatial awareness and goal recognition without hard-coded pathfinding logic.
